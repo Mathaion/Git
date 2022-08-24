@@ -1,0 +1,89 @@
+.column {
+    width:300px;
+    float:left;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.column2 {
+    width:573px;
+    float:left;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+}
+
+body {
+    background-image: url('comida2.png');
+    /* background-repeat: no-repeat; */
+    background-color: #cd55a2;
+    background-attachment: fixed;
+    color:#31466b;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+
+  .newspaper {
+        column-count: 3;
+        column-gap: 40px;
+        column-rule: 1px solid #f7d162;
+  }
+
+.sombra {
+    color: #293c5b;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255), 0 0 25px #f3b164, 0 0 5px rgb(255, 166, 0);
+}
+
+.bloc {
+    display: block
+}
+
+img { border: 3px; }
+
+.inline{
+   /*  display: inline; */
+    border: 1px solid black;
+    background-color: #f7d162;
+    width: 300px;
+    position: relative;
+    left:400px;
+}
+
+nav {
+    padding: 50px 0;
+    min-width: 500px
+}
+
+nav ul {
+    background: linear-gradient(90deg, 
+     rgba(255, 255, 255, 0) 0%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    position: relative;
+    left:490px;
+    padding: 10px; 
+    color: #293c5b;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: inline-block;
+ }
+
+.img {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+p::selection {
+    background: #1a2539;
+    color: #fff;
+}
