@@ -87,3 +87,8 @@ p::selection {
     background: #1a2539;
     color: #fff;
 }
+
+body::selection {
+    background: #1a2539;
+    color: #fff;
+}
