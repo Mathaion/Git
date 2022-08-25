@@ -83,7 +83,7 @@ nav ul li a {
     border-radius: 20px;
 }
 
-body::selection {
+p::selection {
     background: #1a2539;
     color: #fff;
 }
