@@ -92,3 +92,7 @@ body::selection {
     background: #1a2539;
     color: #fff;
 }
+
+.Right{
+    float: right;
+}
