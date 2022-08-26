@@ -1,9 +1,9 @@
 .column {
 	float: right;
-    width:60%;
+	width:60%;
 	height:30%;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
 }
 
 .column2 {
@@ -39,7 +39,11 @@ body {
     display: block
 }
 
-img { border: 3px; }
+img {
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+	height:30%;
+	width: 100%;
+}
 
 .inline{
    /*  display: inline; */
@@ -79,11 +83,6 @@ nav ul li a {
     display: inline-block;
  }
 
-.img {
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-}
-
 p::selection {
     background: #1a2539;
     color: #fff;
@@ -95,7 +94,7 @@ body::selection {
 }
 
 .Right{
-    float: right;
+	float: right;
 	width:40%;
 	height: 50%;
 
