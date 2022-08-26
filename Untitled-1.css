@@ -43,7 +43,7 @@ img {
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 	height:30%;
 	width: 100%;
-	border: 2px solid #1a2539;
+	padding: 15px;
 }
 
 .inline{
