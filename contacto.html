@@ -9,26 +9,42 @@
 		<link href="favicon.ico" rel="icon">
 	</head>
 	<body>
-		
-		<h1 style="background:#f4acb4;padding: 1em;" align="center" class="sombra"> <b>LA COCINA DE JUAN </b></h1>
+		<h1 style="padding: 1em;" align="center" class="sombra"> <b>LA COCINA DE JUAN </b></h1>
 		<hr width="50%">
-        <nav class="text-center text-lg-start" style="background:#f7d162;padding: 1em;">
-            <ul>
-				<a align="center" href="index.html">Home</a>
-                <a align="center" href="acerca.html">Acerca de</a>
-                <a align="center" href="contacto.html">Contacto</a>
-            </ul>
+        <!-- <nav class="text-center text-lg-start" style="background:#f7d162;padding: 1em;">  -->
+		<nav align=center padding: 1em;">
+        		<ul align="center">
+				<li> <a align="center" href="index.html">Home</a></li>
+				<li> <a align="center" href="acerca.html">Acerca de</a></li>
+				<li> <a align="center" href="contacto.html">Contacto</a></li>
+            		</ul>
         </nav>
-		<hr width="200px">
-		<img src="Ragu.jpg" alt="" height="55%" width="35%" border="3px" align="right"/>
+		<div class="Right">
+			<img src="chef.jpg" alt="" height="55%" width="35%", border="3px" align="right"/>
+		</div>
 		<div class="inline">
-			<h3 style="background:#f7d162;padding: 1em;">Contact me </h3>
-			<form style="background:#f7d162;padding: 1em;"> 
-				<input name="name" placeholder="Nombre" type="text" required /> <br/>
-				<input name="email" placeholder="Email" type="email" required /> <br/>
-				<textarea name="Mensaje", placeholder="Mensaje" required> </textarea>
-				<input type="submit" value="Enviar" class="submit" />
-			</form>
+			<h3 style="padding: 1em;">Contactanos</h3>
+			<fieldset>
+				<form style="padding: 1em;"> 
+					<input name="name" placeholder="Nombre" type="text" required /> <br/>
+					<input name="email" placeholder="Email" type="email" required /> <br/>
+					<textarea name="Mensaje", placeholder="Mensaje" required rows=7 cols=35>Escribe tu mensaje aquí</textarea>
+					<p> Género:
+						<input type="radio", name="gender", value="Hombre">Hombre
+						<input type="radio", name="gender", value="Mujer">Mujer
+						<input type="radio", name="gender", value="Otro">Otro
+					</p>
+					<label for="skills">Habilidades de cocina:</label>
+					<select id="skills">
+						<option value="basic">Básicas</option>
+						<option value="medium">Intermedias</option>
+						<option value="advanced">Avanzadas</option>
+						<option value="professional">Profesionales</option>
+					</select>
+					<br><br>
+					<input type="submit" value="Enviar" class="submit" />
+				</form>
+			</fieldset>
 		</div>
         <div class="container my-5">
 
@@ -37,8 +53,7 @@
 			  </div>
 		  
 			  <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-				© 2020 Copyright:
-				<a class="text-white" href="https://mdbootstrap.com/">Matías López</a>
+				© 2022 Copyright: Matías López
 			  </div>
 			</footer>
 		  </div>
