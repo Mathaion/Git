@@ -4,6 +4,8 @@
 	height:30%;
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 	border-radius: 20px;
+    background:#f3b164; 
+    padding: 1em;
 }
 
 .column2 {
@@ -11,7 +13,8 @@
     float:left;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-
+    background: linear-gradient(#f7d162, #ffb73a);
+    padding: 1em;
 }
 
 body {
@@ -19,6 +22,7 @@ body {
     /* background-repeat: no-repeat; */
     background-color: #f4acb4;
     background-attachment: fixed;
+    background-size: cover;
     color:#1a2539;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -44,20 +48,22 @@ img {
 	height:30%;
 	width: 100%;
 	padding: 15px;
+    border-radius: 20px;
 }
 
 .inline{
    /*  display: inline; */
     border: 1px solid black;
     background-color: #f7d162;
-    width: 300px;
-    position: relative;
-    left:400px;
+    width: 400px;
+    float:center;
+    border-radius: 20px;
 }
 
 nav {
     padding: 50px 0;
-    min-width: 500px
+    min-width: 500px;
+	    float: center;
 }
 
 nav ul {
@@ -68,6 +74,7 @@ nav ul {
      rgba(255, 255, 255, 0) 100%);
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
      inset 0 0 1px rgba(255, 255, 255, 0.6);
+	float: center;
 }
 
 nav ul li {
@@ -81,7 +88,7 @@ nav ul li a {
     font-size: 18px;
     font-family: Arial;
     text-decoration: none;
-    display: inline-block;
+    display: block;
  }
 
 p::selection {
@@ -90,8 +97,8 @@ p::selection {
 }
 
 body::selection {
-    background: #1a2539;
-    color: #fff;
+    background: #1a2539!important;
+    color: #fff!important;
 }
 
 .Right{
@@ -104,4 +111,8 @@ body::selection {
 .first{
 	width:100%;
 	height: 10%;
+}
+
+.p1 {
+    font-weight: bold;
 }
