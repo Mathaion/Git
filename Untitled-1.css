@@ -103,7 +103,7 @@ body::selection {
 
 .Right{
 	float: right;
-	width:40%;
+	width:30%;
 	height: 50%;
 
 }
@@ -115,4 +115,8 @@ body::selection {
 
 .p1 {
     font-weight: bold;
+}
+
+iframe {
+    float: right;
 }
