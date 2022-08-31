@@ -119,5 +119,9 @@ body::selection {
 
 iframe {
     float: right;
-	padding: 1em;
+	padding: 15px;
+}
+
+title {
+	font-family: 'Tangerine', serif;
 }
