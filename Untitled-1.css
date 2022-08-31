@@ -119,4 +119,5 @@ body::selection {
 
 iframe {
     float: right;
+	padding: 1em;
 }
