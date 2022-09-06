@@ -126,3 +126,7 @@ iframe {
 title {
 	font-family: 'Tangerine', serif;
 }
+
+button {
+	float: center;
+}
