@@ -56,7 +56,6 @@ img {
     border: 1px solid black;
     background-color: #f7d162;
     width: 400px;
-    float:right;
     border-radius: 20px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 }
@@ -110,7 +109,6 @@ body::selection {
 }
 
 .ImgRight{
-	float: right;
 	width:45%;
 }
 
@@ -183,3 +181,28 @@ ul {
     left:150px;
     top:0px;
 }
+
+.flex {
+	
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-around;
+	}
+	@media (max-width: 500px) {
+		.flex {
+			flex-direction: column-reverse;
+		}
+		.inline {
+			width: 70%;
+		}
+		.ImgRight{
+			width:70%;
+		}
+		.column2 {
+			width: 90%
+		}
+		.Right {
+			width: 80%
+		}
+	}
