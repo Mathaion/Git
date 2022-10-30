@@ -35,51 +35,50 @@
 					<li><a href="contacto.html">Contacto</a></li>
 				</ul>
 			</div>
-		<div class="ImgRight">
-			<img src="chef.jpg" alt="" width="100%", border="3px" align="right"/>
+			<div class="inline">
+				<h3 style="padding: 1em;">Contactanos</h3>
+				<fieldset>
+					<form style="padding: 1em;" action="https://formspree.io/f/xrgdyjvz" method="POST"> 
+						<input name="name" placeholder="Nombre" type="text" required /> <br/>
+						<input name="email" placeholder="Email" type="email" required /> <br/>
+						<textarea name="Mensaje", placeholder="Mensaje" required rows=7 cols=35>Escribe tu mensaje aquí</textarea>
+						<p> Género:
+							<input type="radio", name="gender", value="Hombre">Hombre
+							<input type="radio", name="gender", value="Mujer">Mujer
+							<input type="radio", name="gender", value="Otro">Otro
+						</p>
+						<label for="skills">Habilidades de cocina:</label>
+						<select id="skills">
+							<option value="basic">Básicas</option>
+							<option value="medium">Intermedias</option>
+							<option value="advanced">Avanzadas</option>
+							<option value="professional">Profesionales</option>
+						</select>
+						<br><br>
+						<input type="submit" value="Enviar" class="submit" />
+					</form>
+				</fieldset>
+			</div>
+		<div class="Img">
+			<img src="chef.jpg" alt="" width="100%", border="3px" align="left"/>
 		</div>
-		<div class="inline">
-			<h3 style="padding: 1em;">Contactanos</h3>
-			<fieldset>
-				<form style="padding: 1em;"> 
-					<input name="name" placeholder="Nombre" type="text" required /> <br/>
-					<input name="email" placeholder="Email" type="email" required /> <br/>
-					<textarea name="Mensaje", placeholder="Mensaje" required rows=7 cols=35>Escribe tu mensaje aquí</textarea>
-					<p> Género:
-						<input type="radio", name="gender", value="Hombre">Hombre
-						<input type="radio", name="gender", value="Mujer">Mujer
-						<input type="radio", name="gender", value="Otro">Otro
-					</p>
-					<label for="skills">Habilidades de cocina:</label>
-					<select id="skills">
-						<option value="basic">Básicas</option>
-						<option value="medium">Intermedias</option>
-						<option value="advanced">Avanzadas</option>
-						<option value="professional">Profesionales</option>
-					</select>
-					<br><br>
-					<input type="submit" value="Enviar" class="submit" />
-				</form>
-			</fieldset>
-		</div>
-		<div class="container my-5">
-			<footer class="text-center text-lg-start">
-				<div class="container d-flex justify-content-center py-5">
-				</div>
-				<div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-					<div>
-						<i class="fa-brands fa-twitter" style="font-size: 24px; color: #293c5b"></i>
-						<i class="fa-brands fa-facebook" style="font-size: 24px; color: #293c5b"></i>
-						<a href="https://www.linkedin.com/in/mat%C3%ADas-l%C3%B3pez-275093244/">
-							<i class="fa-brands fa-linkedin" style="font-size: 24px; color: #293c5b"></i>
-						</a>
-						<a href="https://github.com/Mathaion">
-							<i class="fa-brands fa-github" style="font-size: 24px; color: #293c5b"></i>
-						</a>
-					</div>
-				© 2022 Copyright: Matías López
-				</div>
+
+		<div style="position:fixed; margin-bottom:0px; bottom:0px; width:100%;">
+			<footer>
+			 <div style="background-color: rgba(00, 00, 00, 0.25); padding: 0.5em">
+			  <div style="padding: 0.5em;" align=center>
+			   <i class="fa-brands fa-twitter" style="font-size: 24px; color: #293c5b;" align=center></i>
+			   <i class="fa-brands fa-facebook" style="font-size: 24px; color: #293c5b;" align=center></i>
+			   <a href="https://www.linkedin.com/in/mat%C3%ADas-l%C3%B3pez-275093244/" align=center>
+				<i class="fa-brands fa-linkedin" style="font-size: 24px; color: #293c5b;"></i>
+			   </a>
+			   <a href="https://github.com/Mathaion">
+				<i class="fa-brands fa-github" style="font-size: 24px; color: #293c5b;"></i>
+			   </a>
+			  </div>
+			  <p align=center> © 2022 Copyright: Matías López </p>
+			 </div>
 			</footer>
-		</div>
+		   </div>
 	</body>
 </html>
